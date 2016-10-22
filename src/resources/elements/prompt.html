@@ -1,0 +1,10 @@
+<template>
+  <ai-dialog>
+    <ai-dialog-body>
+        <div repeat.for="i of outer.inner">${i.name}</div>
+    </ai-dialog-body>
+    <ai-dialog-footer>
+    <button click.trigger="controller.cancel()">Cancel</button>
+    </ai-dialog-footer>
+  </ai-dialog>
+</template>

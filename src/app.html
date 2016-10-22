@@ -1,0 +1,6 @@
+<template>
+  <button click.delegate="openPrompt()">open dialog</button><br><br> 
+  
+   (app [inline]) inner data:<br>
+  <div repeat.for="s of outer.inner">${s.name}</div>
+</template>
